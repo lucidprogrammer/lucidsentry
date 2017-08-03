@@ -1,0 +1,37 @@
+<head>
+  <title>lucidsentry</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> hello}}
+  {{> info}}
+  {{> example}}
+  {{> anotherexample}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="info">
+  <h2>Learn Meteor!</h2>
+  <ul>
+    <li><a href="blog/34" >Blog (js only)</a></li>
+  </ul>
+</template>
+
+<template name="example">
+  <h2>EXAMPLE JS -</h2>
+  <button>Click Me to trigger error in js</button>
+
+</template>
+
+
+<template name="anotherexample">
+  <h2>EXAMPLE COFEE</h2>
+  <button>Click Me to trigger error in coffee</button>
+
+
+</template>

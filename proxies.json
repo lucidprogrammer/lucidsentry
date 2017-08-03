@@ -1,0 +1,17 @@
+{
+  "proxies":[
+    {
+      "appName": "lucidsentry",
+      "port": "3000",
+      "location": {"path": "/", "regex":""},
+      "websockets": "yes"
+    },
+    {
+      "appName": "lucidsentry",
+      "port": "3000",
+      "location": {"path": "\\.map$", "regex":"~"},
+      "allow": "35.184.238.160/32, 104.155.159.182/32,104.155.149.19/32,130.211.230.102/32",
+      "websockets": "yes"
+    }
+  ]
+}
